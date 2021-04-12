@@ -1,4 +1,4 @@
-arr = [0, -1, 2, -3, 1];
+let arr = [0, -1, 2, -3, 1];
   
 function findTriplets(arr) {
     let found = false;
@@ -11,7 +11,6 @@ function findTriplets(arr) {
                 }
             }
         }
-        // If no triplet with 0 sum found in array
         if(found === false) {
             document.write(" not exist ");
         }
