@@ -16,7 +16,7 @@ function bubbleSort(arr) {
 }
 
 function sort() {
-    let arr = [55, 46, 78, 92, 12, 45, 67, 20];
+    let arr = ['orange', 'papaya', 'banana','mango', 'apple', 'grapes'];
     let newarr = bubbleSort(arr);
     console.log(newarr);
 }
