@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')();
 let string1 = prompt('Enter the first string : ');
 let string2 = prompt('Enter the second string : ');
 
-function analgram (string1, string2) {
+function anagramCheck (string1, string2) {
     let n1 = string1.length;
     let n2 = string2.length;
 
@@ -25,4 +25,4 @@ function sortString(str){
     return sorted.join('');
   }
 
-analgram(string1, string2);
+anagramCheck(string1, string2);

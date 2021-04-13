@@ -3,8 +3,7 @@ function primeNumbers() {
     let range = prompt('Please Enter the range');
     for (let i = 2; i <= range; i++) {
         let flag = 0;
-    
-        // looping through 2 to user input number
+        
         for (let j = 2; j < i; j++) {
             if (i % j == 0) {
                 flag = 1;
